@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Benchmark evaluation logs and model outputs
+results/
+logs/
+*.log
+runs/
+
+# Datasets and checkpoints
+data/
+checkpoints/
+
+# LLM API keys / secrets (if using .env or yaml configs)
+secrets.yaml
+config.local.yaml
+
+*.code-workspace
